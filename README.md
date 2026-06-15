@@ -16,7 +16,7 @@ The ideal resonant frequency of the LC tank (L1 = 0.1uH, C2 = 33pF, C3 = 47pF) w
 
 Ceq = (33 x 47)/(33 + 47) ~ 19.38pF
 
-fc = 1/(2*pi*sqrt(L*Ceq)) ~ 114.3MHz
+fc = 1/(2* pi * sqrt(L*Ceq)) ~ 114.3MHz
 
 The FFT confirms a carrier frequency peak at approximately 100 MHz. The downward shift from the ideal 114.3 MHz is caused by the parallel addition of the 2N2222's internal junction capacitances to the tank circuit.
 
